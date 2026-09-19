@@ -1,0 +1,44 @@
+cfg:
+{'n_epochs': 5, 'batch_size_train': 16, 'batch_size_test': 1000, 'learning_rate': 0.08, 'momentum': 0.5, 'log_interval': 80}
+fed_cfg:
+{'nb_clients': 2, 'subbatch_per_client': 1}
+Epoch: 1
+client: 0
+loss: 0.1166
+client: 1
+loss: 0.0982
+Global:
+global_loss: 0.115
+global_cost: 60000
+Epoch: 2
+client: 0
+loss: 0.05
+client: 1
+loss: 0.046
+Global:
+global_loss: 0.038
+global_cost: 120000
+Epoch: 3
+client: 0
+loss: 0.0398
+client: 1
+loss: 0.0381
+Global:
+global_loss: 0.0347
+global_cost: 180000
+Epoch: 4
+client: 0
+loss: 0.0319
+client: 1
+loss: 0.0305
+Global:
+global_loss: 0.0296
+global_cost: 240000
+Epoch: 5
+client: 0
+loss: 0.0287
+client: 1
+loss: 0.029
+Global:
+global_loss: 0.0284
+global_cost: 300000

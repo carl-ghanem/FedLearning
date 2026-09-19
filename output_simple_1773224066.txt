@@ -1,0 +1,18 @@
+cfg:
+{'n_epochs': 4, 'batch_size_train': 64, 'batch_size_test': 1000, 'learning_rate': 0.1, 'momentum': 0.5, 'lr_depreciation': 0.5, 'manual_SGD': True, 'log_interval': 20}
+Epoch: 1
+Global:
+global_loss: 0.0996
+global_cost: 60000
+Epoch: 2
+Global:
+global_loss: 0.0509
+global_cost: 120000
+Epoch: 3
+Global:
+global_loss: 0.0435
+global_cost: 180000
+Epoch: 4
+Global:
+global_loss: 0.0408
+global_cost: 240000
